@@ -19,12 +19,8 @@
             
             <h1>Customer Information Center</h1>
             
-        <a href="read">View All Books</a>
+        <a href="read">View All Customers</a>
 
-            <br><br>
-
-            <a href="search.jsp">Search All Books</a>
-        
         </div> <!-- close main div -->
     
         <!-- Footer -->

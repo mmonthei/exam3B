@@ -101,80 +101,44 @@ public class ReadQuery {
                                
                 table += "<tr>";
                 
-                    table += "<td>";
-                    table += customer.getCustID();
-                    table += "</td>";
+                table += "<td>";
+                table += customer.getCustID();
+                table += "</td>";
                 
-                table += "</tr>";
+                table += "<td>";
+                table += customer.getFirstName();
+                table += "</td>";
                 
-                table += "<tr>";
+                table += "<td>";
+                table += customer.getLastName();
+                table += "</td>";
                 
-                    table += "<td>";
-                    table += customer.getFirstName();
-                    table += "</td>";
+                table += "<td>";
+                table += customer.getAddr1();
+                table += "</td>";
                 
-                table += "</tr>";
-                    
-                table += "<tr>";
-
-                    table += "<td>";
-                    table += customer.getLastName();
-                    table += "</td>";
-                    
-                table += "</tr>";
-                    
-                table += "<tr>";
-
-                    table += "<td>";
-                    table += customer.getAddr1();
-                    table += "</td>";
-                    
-                table += "</tr>";
-                    
-                table += "<tr>";
-
-                    table += "<td>";
-                    table += customer.getAddr2();
-                    table += "</td>";
-                    
-                table += "</tr>";
-                    
-                table += "<tr>";
-
-                    table += "<td>";
-                    table += customer.getCity();
-                    table += "</td>";
-                    
-                table += "</tr>";
-                    
-                table += "<tr>";
-
-                    table += "<td>";
-                    table += customer.getCustState();
-                    table += "</td>";
-                    
-                table += "</tr>";
-                    
-                table += "<tr>";
-
-                    table += "<td>";
-                    table += customer.getZip();
-                    table += "</td>";
-                    
-                table += "</tr>";
-                    
-                table += "<tr>";
-
-                    table += "<td>";
-                    table += customer.getEmailAddr();
-                    table += "</td>";
-                    
-                table += "</tr>";
-                    
-                table += "<tr>";
-
-                    table += "<td>";
-                    table += "<a href=update?custID=" + customer.getCustID() + "> Update </a>" + "<a href=delete?custID=" + customer.getCustID() + "> Delete </a>";
+                table += "<td>";
+                table += customer.getAddr2();
+                table += "</td>";
+                
+                table += "<td>";
+                table += customer.getCity();
+                table += "</td>";
+                
+                table += "<td>";
+                table += customer.getCustState();
+                table += "</td>";
+                
+                table += "<td>";
+                table += customer.getZip();
+                table += "</td>";
+                
+                table += "<td>";
+                table += customer.getEmailAddr();
+                table += "</td>";
+                
+                table += "<td>";
+                table += "<a href=update?custID=" + customer.getCustID() + "> Update </a>" + "<a href=delete?custID=" + customer.getCustID() + "> Delete </a>";
                 
                 table += "</tr>";
                 

@@ -7,7 +7,6 @@
         <title>Customer Information Center</title>
     </head>
     
-    <% String table = (String) request.getAttribute("table"); %>
     
     <body>
         <div class="wrap"> <!--div to hold all other divs -->
@@ -67,7 +66,7 @@
             </tr>
             
             </table>
-            <input type="submit" name="submit" value="Add" />
+            <input type="submit" name="submit" value="Submit" />
             <input type="reset" value="Clear" id="clear">
         </form>
 

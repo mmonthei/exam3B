@@ -55,3 +55,7 @@ float: left;
 
 /*formats the page footer*/
 .footer { text-align:left; padding:25px; }
+
+input[readonly] {background-color: gray;}
+
+.right {text-align: right;}

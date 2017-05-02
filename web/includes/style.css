@@ -70,3 +70,7 @@ input[readonly] { background-color: gray; }
 border: 1px solid black;}
 
 .tableformat tr:hover{background-color:#CCCCCC;}
+
+.add td {border: none; height: 20px; padding: 10px; font-weight: bold;}
+
+.update td {border: none; height: 20px; padding: 10px; font-weight: bold;}

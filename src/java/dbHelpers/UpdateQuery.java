@@ -56,12 +56,12 @@ public class UpdateQuery {
             
             ps.setString(1, customer.getFirstName());
             ps.setString(2, customer.getLastName());
-            ps.setString(1, customer.getAddr1());
-            ps.setString(1, customer.getAddr2());
-            ps.setString(1, customer.getCity());
-            ps.setString(1, customer.getCustState());
-            ps.setInt(4, customer.getZip());
-            ps.setString(1, customer.getEmailAddr());
+            ps.setString(3, customer.getAddr1());
+            ps.setString(4, customer.getAddr2());
+            ps.setString(5, customer.getCity());
+            ps.setString(6, customer.getCustState());
+            ps.setInt(7, customer.getZip());
+            ps.setString(8, customer.getEmailAddr());
             
             
             ps.executeUpdate();

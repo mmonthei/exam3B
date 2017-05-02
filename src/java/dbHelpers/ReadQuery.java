@@ -54,7 +54,7 @@ public class ReadQuery {
     public void doRead(){
         
         try {
-            String query = "Select * from customers";
+            String query = "Select * from customers ORDER BY custID";
             
             PreparedStatement ps = conn.prepareStatement(query);
             this.results = ps.executeQuery();
@@ -69,14 +69,15 @@ public class ReadQuery {
         
         String table = "";
         
-        table += "<table>";
+        table += "<table class= 'tableformat'>";
         
-        table += "<tr>";
+       
+        table += "<tr class='tablehead'>";
         table += "<th>Customer ID</th>";
         table += "<th>First Name</th>";
         table += "<th>Last Name</th>";
         table += "<th>Address 1</th>";
-        table += "<th>Address 2 Rating</th>";
+        table += "<th>Address 2</th>";
         table += "<th>City</th>";
         table += "<th>State</th>";
         table += "<th>Zip</th>";

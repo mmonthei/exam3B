@@ -53,6 +53,9 @@ float: left;
 /*formats the main page content*/
 .main {text-align:left; padding:25px; }
 
+/*formats the search section of page*/
+.search {text-align:left; padding:25px; }
+
 /*formats the page footer*/
 .footer { text-align:left; padding:25px; }
 

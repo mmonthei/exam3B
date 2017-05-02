@@ -17,19 +17,21 @@
 
         <!-- Menu -->
         <%@include file="includes/menu.jsp" %>
-        
-        <!-- Search -->
-        <%@include file="includes/search.jsp" %>
+    
             
         <div class="main"> <!-- main div -->
             
-            <h1>Customer List:</h1>
-            
-            <%= table %>
-            
+            <form name="searchForm" action="search" method="get">
+        
+            <b> Search for customer by entering first or last name. </b>
             <br><br>
+
+            <input type="text" name="searchVal" value="" />
+
+            <input type="submit" name="submit" value="Search" />
+            <input type="reset" value="Clear" id="clear">
             
-            <a href="add">Add A New Customer</a>
+            </form>
 
         </div> <!-- close main div -->
     

@@ -14,11 +14,14 @@
 
         <!-- Menu -->
         <%@include file="includes/menu.jsp" %>
-            
+        
+        <!-- Search -->
+        <%@include file="includes/search.jsp" %>
+                    
         <div class="main"> <!-- main div -->
             
             <h1>Customer Information Center</h1>
-            
+                     
         <a href="read">View All Customers</a>
 
         </div> <!-- close main div -->

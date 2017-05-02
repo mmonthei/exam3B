@@ -16,6 +16,9 @@
 
         <!-- Menu -->
         <%@include file="includes/menu.jsp" %>
+        
+        <!-- Search -->
+        <%@include file="includes/search.jsp" %>
             
         <div class="main"> <!-- main div -->
             

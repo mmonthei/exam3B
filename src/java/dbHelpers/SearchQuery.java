@@ -97,6 +97,15 @@ public class SearchQuery {
         table += "</tr>";
         
         try {
+            if(!this.results.isBeforeFirst()){
+                
+                table += "<tr>";
+                table += "<td colspan='10' align='middle' >Sorry, this customer does not exist in the database</td>";
+                table += "</tr>";
+                
+            }
+            
+            else{
             while(this.results.next()){
                 
                 Customers customer = new Customers();
@@ -155,6 +164,7 @@ public class SearchQuery {
                 table += "</tr>";
                 
             }
+                    }
         } catch (SQLException ex) {
             Logger.getLogger(SearchQuery.class.getName()).log(Level.SEVERE, null, ex);
         }

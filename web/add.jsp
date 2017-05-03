@@ -30,17 +30,17 @@
             
             <tr>
                     <td class="right">First Name:</td>
-                    <td><input type="text" name="firstName" value="" /></td>
+                    <td><input type="text" name="firstName" value="" required data-validation-required-message="Please enter first name." /></td>
             </tr>
             
             <tr>
                     <td class="right">Last Name:</td>
-                    <td><input type="text" name="lastName" value="" /></td>
+                    <td><input type="text" name="lastName" value="" required data-validation-required-message="Please enter last name."/></td>
             </tr>
             
             <tr>
                     <td class="right">Address 1:</td>
-                    <td><input type="text" name="addr1" value="" /></td>
+                    <td><input type="text" name="addr1" value="" required data-validation-required-message="Please enter address."/></td>
             </tr>
             
             <tr>
@@ -50,22 +50,22 @@
             
             <tr>
                     <td class="right">City:</td>
-                    <td><input type="text" name="city" value="" /></td>
+                    <td><input type="text" name="city" value="" required data-validation-required-message="Please enter city." /></td>
             </tr>
             
             <tr>
                     <td class="right">State:</td>
-                    <td><input type="text" name="custState" value="" /></td>
+                    <td><input type="text" name="custState" value="" required data-validation-required-message="Please enter state (example: IA or CA)." pattern="[A-Z]{2,2}" /></td>
             </tr>
             
             <tr>
                     <td class="right">Zip:</td>
-                    <td><input type="text" name="zip" value="" /></td>
+                    <td><input type="number" name="zip" value="" required data-validation-required-message="Please enter zip code." pattern="[0-9]{5,5}"/></td>
             </tr>
             
             <tr>
                     <td class="right">Email Address:</td>
-                    <td><input type="text" name="emailAddr" value="" /></td>
+                    <td><input type="email" name="emailAddr" value="" required data-validation-required-message="Please enter email address."/></td>
             </tr>
             
             </table>
